@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "Search bar with elm",
-    "repository": "https://github.com/jurStv/searchWidget.git",
+    "repository": "https://github.com/user/project.git",
     "license": "MIT",
     "source-directories": [
         "."
