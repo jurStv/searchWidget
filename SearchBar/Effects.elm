@@ -27,7 +27,7 @@ searchProducts query =
 
 searchUrl : String -> String
 searchUrl term =
-  Http.url ("http://localhost:8000/api/search/" ++ term) []
+  Http.url ("/api/search/" ++ term) []
 
 
 decodeUrl : Json.Decoder (List Product)

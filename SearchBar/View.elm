@@ -69,8 +69,8 @@ textMessage term =
 productView : Signal.Address Action -> Model -> Product -> Html
 productView adress model product =
   let productText =
-    if String.length product.title > 21 then
-      (String.left 21 product.title) ++ "..."
+    if String.length product.title > 18 then
+      (String.left 18 product.title) ++ "..."
     else
       product.title
   in
@@ -108,7 +108,7 @@ noProductsMessageStyle =
 mainBlockStyle : List ( String, String )
 mainBlockStyle = [ "border-radius" => "5px"
     , "overflow" => "hidden"
-    , "width" => "260px"
+    , "width" => "270px"
     , "position" => "absolute"
     , "background" => "#fff"
     , "top" => "50px"
